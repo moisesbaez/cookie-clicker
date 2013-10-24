@@ -67,7 +67,7 @@ function GameDraw(gameTime) {
     }
 
     context.fillStyle = "rgb(24, 0, 0)";
-    context.font = "12px Courier New"
+    context.font = "12px Courier New";
     context.textAlign = "left";
     context.textBaseline = "top";
     context.fillText("(X: " + clickX + ", Y: " + clickY + ")", 5, 5);
