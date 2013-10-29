@@ -1,0 +1,25 @@
+/* 
+    Document   : custom.css
+    Created on : Oct 29, 2013, 2:16:44 PM
+    Author     : Moises Baez
+    Description:
+        Stylesheet for the DOM version of the Cookie Clicker game.
+*/
+
+.container {
+    background-color: #FFFFFF;
+}
+
+body {
+    background-color: #383838;
+}
+
+#cookie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cookieCount {
+    text-align: center;
+}

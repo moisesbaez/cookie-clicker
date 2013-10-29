@@ -19,7 +19,7 @@ var clicks;
 window.onload = function() {
     Initialize();
     previousFrame = Date.now();
-    setInterval(GameLoop, 1);
+    setInterval(GameLoop, 1000 / 60);
 };
 
 
